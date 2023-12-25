@@ -9,8 +9,8 @@ print(Fore.GREEN + "--- TikTok Like Bot v1 ---")
 print(Fore.GREEN + "--- Created by Master TG ---")
 print(Fore.GREEN + "--- MAY TAKE UP TO 24 HOURS FOR ALL LIKES TO APPEAR! ---")
 print(Fore.WHITE + "------------------------")
-likesInputted = int(input("> Enter the amount of likes: "))
-videoURL = input("> Video URL: ")
+likesInputted = int(input(" Enter the amount of likes: "))
+videoURL = input(" Video URL: ")
 failedlikes = 0
 
 if "tiktok.com" in str(videoURL):
